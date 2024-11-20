@@ -1,4 +1,4 @@
-# Introduction to Oracle Fusion Middleware
+# Oracle Fusion Middleware
 
 Oracle Fusion Middleware is a **standards-based family of products** that are often deployed and used in conjunction with one another **to develop Java EE applications**, providing the benefits of common security, management, deployment architecture, and development tools.
 

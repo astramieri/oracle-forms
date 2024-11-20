@@ -2,5 +2,6 @@
 
 Note-taking repository for Oracle Forms.
 
-- [Introduction to Oracle Fusion Middleware](./oracle_fusion.md)
-- [Introduction to Oracle Forms](./oracle_forms.md)
+- [Oracle Fusion Middleware](./fusion_middleware.md)
+- [Oracle Forms Development](./forms_development.md)
+- [Oracle Forms Services](./forms_services.md)
