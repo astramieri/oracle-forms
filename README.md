@@ -11,7 +11,6 @@ Note-taking repository for Oracle Forms.
 - [Oracle Forms Builder](./docs/forms_builder.md)
 - [Running an Oracle Form](./docs/running_a_form.md)
 
-
 ## Links
 
 - [Summit Office Supply Schema](http://www.oracle.com/technetwork/developer-tools/forms/documentation/summit10gr2-128838.zip)
