@@ -12,7 +12,7 @@ Oracle Forms Services uses a **3-tier architecture** to deploy database applicat
 ## Oracle Forms Services Architecture
 
 Oracle Forms Services consists of 4 major components:
-- the Java client (Forms Client)
+- the Forms Client (Java client)
 - the Forms Listener Servlet
 - the Forms Servlet
 - the Forms Runtime Engine
