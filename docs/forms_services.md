@@ -19,4 +19,4 @@ Oracle Forms Services consists of 4 major components:
 
 When a user runs an Oracle Forms session over the Web, a thin, Java-based Forms applet is dynamically downloaded from the application server and automatically cached on the client computer. The same Java applet code can be used for any form, regardless of size and complexity.
 
-![Oracle Forms Services Architecture](./images/forms_services_architecture.png)
+![Oracle Forms Services Architecture](../images/forms_services_architecture.png)

@@ -4,10 +4,11 @@ Note-taking repository for Oracle Forms.
 
 ## Notes
 
-- [Oracle Fusion Middleware](./fusion_middleware.md)
-- [Oracle Forms Development](./forms_development.md)
-- [Oracle Forms Services](./forms_services.md)
-- [Oracle Forms Builder](./forms_builder.md)
+- [Oracle Fusion Middleware](./docs/fusion_middleware.md)
+- [Oracle WebLogic Server](./docs/weblogic.md)
+- [Oracle Forms Development](./docs/forms_development.md)
+- [Oracle Forms Services](./docs/forms_services.md)
+- [Oracle Forms Builder](./docs/forms_builder.md)
 
 ## Links
 
