@@ -5,7 +5,7 @@ Oracle Fusion Middleware is a **standards-based family of products** that are of
 Oracle Fusion Middleware includes the following major products:
 - Oracle WebLogic Server
 - Oracle Metadata Repository
-- Oracle Identiy and Access Management
+- Oracle Identity and Access Management
 - Oracle Fusion Middleware Application Components
     - Oracle HTTP Server
     - Oracle Web Cache
