@@ -4,10 +4,10 @@ Oracle Forms Services is a component of Oracle Fusion Middleware for delivering 
 
 Oracle Forms Services automatically provides the infrastructure that is needed to successfully deliver applications on the Web through built-in services and optimizations.
 
-Oracle Forms Services uses a **3-tier architecture** to deploy database applications:
-- The client tier contains the web browser, where the application is displayed and used.
-- The middle tier is the application server, where the application logic and server software reside
-- The database tier is the database server, where enterprise data is stored
+Oracle Forms Services uses a **3-tier architecture** to deploy (database) applications:
+- The client tier contains the **web browser**, where the application is displayed and used.
+- The middle tier is the **application server**, where the application logic and server software reside
+- The database tier is the **database server**, where enterprise data is stored
 
 ## Oracle Forms Services Architecture
 
