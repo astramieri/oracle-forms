@@ -34,7 +34,7 @@ The 3 major objects in a form module are:
     - a canvas is a *surface* where visual objects are arranged
     - a canvas can display items from one or more blocks
     - a form module can have several canvases
-    - a canvas must be inside a window
+    - a canvas must appear in a window
 
 When you run a form, you principally navigate by way of items and blocks, not by canvases. Each item has a sequenced position within its block, and each block has a sequenced position in the form.
 
@@ -59,3 +59,25 @@ There are 2 main types of blocks:
 6. record
 
 ![Data Block](../images/data_block.png)
+
+## Form Module Hierarchy
+
+- **Triggers**
+    - using triggers, you can write PL/SQL code to add functionality to your form
+    - triggers can be written at form, block, or item level
+- **Blocks**
+    - a form module is made up of one or more blocks
+    - a data block is based on a database object, such as a table or a view
+- **Items**
+    - a data block can contain both data items and control items
+- **Canvases**
+    - each item in a block must appear on a canvas
+- **Frames**
+    - a frame can be created to arrange data block items on the canvas
+- **Program Units**
+    - user-named program units enable you to write additional PL/SQL code through procedures, functions, and packages
+- **Windows**
+    - to be visible to the end user, each canvas must appear in a window 
+    - a form module can have one or more canvases and windows
+
+![Form Hierarchy](../images/form_hierarchy.png)
