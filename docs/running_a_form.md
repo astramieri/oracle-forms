@@ -1,4 +1,4 @@
-# Running an Oracle Form
+# Running a Form Application
 
 The URL to invoke an Oracle Form application has the following format:
 
