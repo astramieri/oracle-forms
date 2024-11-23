@@ -10,3 +10,7 @@ Note-taking repository for Oracle Forms.
 - [Oracle Forms Services](./docs/forms_services.md)
 - [Oracle Forms Builder](./docs/forms_builder.md)
 - [Running a Form Application](./docs/running_a_form.md)
+
+## Working in the Forms Environment
+
+- [Forms Executables](./docs/forms_executables.md)
