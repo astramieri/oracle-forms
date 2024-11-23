@@ -18,6 +18,17 @@ A Forms module can be of the following types:
     - it is a collection of form objects that you can use in other
 modules
 
-## Note
-
 A form module can be run independently, but menu modules, PL/SQL libraries, and object libraries are functional only when attached to or included in a form module.
+
+## Form Module Objects
+
+Forms modules make up the main body of an Oracle Forms application. 
+
+The 3 major objects in a form module are:
+- **Items**
+    - interface objects that present data values to the user or enable the user to interact with the form
+    - they are logically grouped into blocks and visibly arranged on canvases
+- **Blocks**
+    - they provide a mechanism for grouping related items into a functional unit for storing, displaying, and manipulating records
+- **Canvases**
+    - a canvas is a *surface* where visual objects are arranged
