@@ -21,8 +21,6 @@ Note-taking repository for Oracle Forms.
 
 - [Creating A Form Module](./docs/creating_form_module.md)
 
-
-
 ## Links
 
 - [Working with Oracle Forms](https://docs.oracle.com/en/middleware/developer-tools/forms/12.2.1.4/working-forms/index.html)
