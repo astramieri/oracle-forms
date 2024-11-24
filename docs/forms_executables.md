@@ -6,11 +6,11 @@ Oracle Forms includes the following two executables (components):
     - it is used to design and store the definitions of form, menu, and library
 documents
 - **Forms Compiler**
-    - it reads the definition of your module and creates an executable run file
+    - it reads the definition of module and creates an executable run file
 
 ## Invoking Forms Builder
 
-    FRMBLD [my_form] [scott/tiger@my_database]
+    FRMBLD [my_form] [my_user/my_pass@my_database]
 
 ## Testing a Form Application
 
@@ -18,6 +18,6 @@ Because Forms applications are Web based, it is not possible to run them directl
 
 The files used at run time must already have been compiled by the Forms Compiler component. These files must reside on the middle-tier machine in a directory accessible to the Forms Runtime Engine (in ```FORMS_PATH```).
 
-To test your applications, you can also access Forms Services directly from Forms Builder by setting certain preferences.
+To test a Form application, you can also access Forms Services directly from Forms Builder by setting certain preferences.
 
 
