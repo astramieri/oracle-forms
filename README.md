@@ -15,3 +15,4 @@ Note-taking repository for Oracle Forms.
 
 - [Forms Executables](./docs/forms_executables.md)
 - [Forms Modules Types](./docs/forms_module_types.md)
+- [Forms Environment Variables](./docs/forms_variables.md)
