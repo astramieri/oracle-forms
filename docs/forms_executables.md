@@ -18,6 +18,6 @@ Because Forms applications are Web based, it is not possible to run them directl
 
 The files used at run time must already have been compiled by the Forms Compiler component. These files must reside on the middle-tier machine in a directory accessible to the Forms Runtime Engine (in ```FORMS_PATH```).
 
-To test a Form application, you can also access Forms Services directly from Forms Builder by setting certain preferences.
+To test a Form application, Forms Services can be accessed directly from Forms Builder by configuring specific preferences.
 
 
