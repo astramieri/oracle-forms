@@ -2,7 +2,7 @@
 
 A Forms application consists or many modules (or files).
 
-A module is a major component of your application and is the basis for storage and ownership. A module owns the objects that it contains.
+A module is a major component of a Form application and is the basis for storage and ownership. A module owns the objects that it contains.
 
 A Forms module can be of the following types:
 - **Form**
@@ -41,11 +41,11 @@ When you run a form, you principally navigate by way of items and blocks, not by
 ## Types of Blocks
 
 There are 2 main types of blocks: 
-- **data blocks**
+- **Data Blocks**
     - a data block is associated with a specific database table (or view), a stored procedure, a ```FROM``` clause query, or transactional triggers
     - by default, the association between a data block and the database enables the user to **automatically access and manipulate data in the database**
     - to access data from other tables (nonbase tables), you need to write triggers
-- **control blocks**
+- **Control Blocks**
     - a control block is not associated with a database, and its items do not relate to any columns within any database table
     - control block items are called **control items**
 
