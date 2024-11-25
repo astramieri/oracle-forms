@@ -1,8 +1,8 @@
 # Forms Environment Variables
 
-Forms uses some environment variables set on the middle-tier computer to search at run time for files such as forms, menus, and libraries.
+Oracle Forms uses some environment variables, set on the middle-tier computer, to search at run time for files such as forms, menus, and libraries.
 
-Forms searches the following paths **in order** until the required file is found:
+Oracle Forms searches the following paths **in order** until the required file is found:
 - the current working directory
 - directories in ```FORMS_PATH```
 - directories in ```ORACLE_PATH```
