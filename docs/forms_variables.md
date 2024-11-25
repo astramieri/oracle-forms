@@ -7,7 +7,7 @@ Oracle Forms searches the following paths **in order** until the required file i
 - directories in ```FORMS_PATH```
 - directories in ```ORACLE_PATH```
 
-Although you could set these variables at the machine level (such as in the Windows Registry) **it is preferable to set them in the Forms environment file**. Settings in this file override system settings for running a Forms application.
+The preferred way to set these variables at the machine level is to set them in the **Forms environment file**.
 
 - **Forms environment file**
     - ```default.env``` (or other file specified in the Forms configuration file)
