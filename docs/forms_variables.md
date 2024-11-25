@@ -1,4 +1,4 @@
-# Forms Environment Variables
+# Oracle Forms Environment Variables
 
 Oracle Forms uses some environment variables, set on the middle-tier computer, to search at run time for files such as forms, menus, and libraries.
 

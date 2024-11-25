@@ -11,11 +11,11 @@ Note-taking repository for Oracle Forms.
 - [Oracle Forms Builder](./docs/forms_builder.md)
 - [Running a Form Application](./docs/running_a_form.md)
 
-## The Forms Environment
+## Oracle Forms Environment
 
-- [Forms Executables](./docs/forms_executables.md)
-- [Forms Modules Types](./docs/forms_module_types.md)
-- [Forms Environment Variables](./docs/forms_variables.md)
+- [Oracle Forms Executables](./docs/forms_executables.md)
+- [Oracle Forms Modules Types](./docs/forms_module_types.md)
+- [Oracle Forms Environment Variables](./docs/forms_variables.md)
 
 ## Designing Form Modules
 
