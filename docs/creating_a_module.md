@@ -1,4 +1,4 @@
-# Creating A Form Module
+# Creating a Forms Module
 
 There are several ways to create a new form module:
 - Use wizards
