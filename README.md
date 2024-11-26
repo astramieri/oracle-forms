@@ -17,10 +17,11 @@ Note-taking repository for Oracle Forms.
 - [Oracle Forms Modules Types](./docs/forms_module_types.md)
 - [Oracle Forms Environment Variables](./docs/forms_variables.md)
 
-## Designing Forms Modules
+## Working with Forms Modules
 
 - [Creating a Forms Module](./docs/creating_a_module.md)
 - [Compiling a Forms Module](./docs/compiling_a_module.md)
+- [Deploying a Forms Module](./docs/deploying_a_module.md)
 
 ## Links
 

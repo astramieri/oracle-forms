@@ -2,6 +2,8 @@
 
 Before you can run a form, you must compile an executable (```*.fmx```) file from the design (```*.fmb```) file that you created in the Forms Builder. Compiling a form (or menu) module creates the needed executable file.
 
+The files normally produced by saving and generating modules are in binary format. To convert a binary file to text, you need the *Convert* utility.
+
 ## Module Types and Storage Formats
 
 When you create form modules, menu modules, and library documents in the Forms Builder, they are stored in source files (```*.fmb```, ```*.mmb```, and ```*.pll```) that have a binary format and are portable across platforms. 
