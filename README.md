@@ -22,6 +22,7 @@ Note-taking repository for Oracle Forms.
 - [Creating a Forms Module](./docs/creating_a_module.md)
 - [Compiling a Forms Module](./docs/compiling_a_module.md)
 - [Deploying a Forms Module](./docs/deploying_a_module.md)
+- [Master-Detail Forms Module](./docs/master_detail.md)
 
 ## Links
 
