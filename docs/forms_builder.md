@@ -21,3 +21,15 @@ Forms Builder has 2 main modes of operation:
 
 **NOTE.** The third mode of operation, **Query mode**, occurs while Forms is processing a query; the user cannot interact with the form while this query processing is taking place.
 
+## Retrieving Data 
+
+There are two general types of queries:
+- **unrestricted**: the equivalent of selecting all the rows for all the represented columns from the base table for the queried data block
+- **restricted**: the equivalent of selecting a restricted set of rows for all the represented columns from the base table for the queried data block
+
+You can use any one of the following methods to perform a restricted query:
+- matching values
+- matching patterns (wildcards)
+- a *Query/Where dialog box* for user entry of SQL predicates
+
+**Note**. To improve security, Forms 10.1.2.0.2 introduced a new run-time environment variable, ```FORMS_RESTRICT_ENTER_QUERY```, that is initially set to ```TRUE```, which makes it impossible to invoke the *Query/Where dialog box*. 
