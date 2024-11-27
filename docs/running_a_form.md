@@ -1,6 +1,6 @@
 # Running a Form Application
 
-The URL to invoke an Oracle Form application has the following format:
+The URL to invoke an Oracle Forms application has the following format:
 
     https://<host>:<port>/forms/frmservlet[?<parameters>]
 
@@ -10,7 +10,7 @@ where:
     - 9001 default for WebLogic Server (used for testing from Forms Builder)
     - 8888 default for Oracle HTTP Server (used commonly for production)
 - ```parameters``` (separated by ```&```)
-    - ```config=<app>```
+    - ```config=<app_name>```
     - ```form=<form_name>.fmx```
     - ```userid=<user_name>/<pass_word>@<db_name>```
     - ```buffer_record=NO```
