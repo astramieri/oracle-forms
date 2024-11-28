@@ -61,3 +61,18 @@ fetch from the database at one time
     - Query Data Source Arguments
         - it specifies the names, data types, and values of the arguments that are to be passed to the procedure for querying data
         - it is valid only when the *Query Data Source Type* property is set to ```Procedure```
+    - Optimizer Hint
+    - Locking Mode/KeyMode
+    - Update Changed Columns Only
+        - set to ```No``` (by default) so that all columns are included in the default UPDATE statement
+    - Enforce Column Security
+    - Maximum Query Time
+        - it provides the option to abort a query when the elapsed time
+of the query exceeds the value of this property
+    - Maximum Records Fetched
+        - it provides the option to abort a query when the number
+of records fetched exceeds the value of this property
+    - ```WHERE``` Clause
+        - this clause is automatically appended (```AND```) with any conditions supplied by the operator in Enter Query mode
+    - ```ORDER BY``` Clause
+        - the operator can alter this order by using the Query/Where dialog box at run time
