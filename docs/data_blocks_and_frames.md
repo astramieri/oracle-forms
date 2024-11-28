@@ -19,3 +19,30 @@ Each property in a Property Palette has an icon to its left:
 ## Visual Attributes
 
 Visual Attribute is another object that you can create in the Object Navigator. Visual Attributes are the font, color, and pattern properties that you set for form and menu objects. 
+
+## Data Block Properties
+
+Each data block has several properties. These properties are divided into groups.
+- **Navigation**
+    - Navigation Style
+        - valid settings: Same Record (default), Change Record, or Change Data Block
+    - Previous/Next Navigation Data Block
+- **Records**
+    - Current Record Visual Attribute Group
+        - Visual Attribute used to highlight the current record in the data block
+    - Number of Records Displayed
+    - Query Array Size
+        - it specifies the maximum number of records that Forms should
+fetch from the database at one time
+        - when set to 0, this property defaults to the *Number of Records Displayed*
+    - Number of Records Buffered
+        - minimum amount of buffer space retained for holding queried records in the data block
+    - Query All Records
+        - it specifies whether all the records matching the query criteria should be fetched when a query is executed
+        - it is necessary to support the *Calculated Field* feature
+    - Record Orientation
+        - it determines the orientation of records in the data block (horizontal or vertical)
+    - Single Record 
+        - it specifies that the control block should always contain one record
+        - set to ```Yes``` for a control block that contains a summary calculated item
+        - cannot set to ```Yes``` for a data block
