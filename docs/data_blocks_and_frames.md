@@ -76,3 +76,9 @@ of records fetched exceeds the value of this property
         - this clause is automatically appended (```AND```) with any conditions supplied by the operator in Enter Query mode
     - ```ORDER BY``` Clause
         - the operator can alter this order by using the Query/Where dialog box at run time
+- **Scroll Bar**
+    - Show Scroll Bar
+    - Scroll Bar Canvas/Tab Page
+    - Scroll Bar Orientation
+    - Scroll Bar X/Y Position
+    - Scroll Bar Width/Length
