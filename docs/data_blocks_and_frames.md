@@ -15,3 +15,7 @@ Each property in a Property Palette has an icon to its left:
 - **square**: specifies that the property values has been changed from the default
 - **arrow**: specifies that the property values is inherited
 - **arrow with a cross**: specifies that the property value was inherited but has been overriden 
+
+## Visual Attributes
+
+Visual Attribute is another object that you can create in the Object Navigator. Visual Attributes are the font, color, and pattern properties that you set for form and menu objects. 
