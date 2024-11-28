@@ -46,3 +46,18 @@ fetch from the database at one time
         - it specifies that the control block should always contain one record
         - set to ```Yes``` for a control block that contains a summary calculated item
         - cannot set to ```Yes``` for a data block
+- **Database**
+    - Database Data Block
+        - set to ```Yes``` if the data block is based on a database object, and ```No``` if it is a control block
+    - Enforce Primary Key
+    - Query Allowed
+    - Insert Allowed
+    - Update Allowed
+    - Delete Allowed
+    - Query Data Source Type
+        - possbile values: None, Table, Procedure, Transactional Triggers, or the ```FROM``` clause query
+    - Query Data Source Name
+    - Query Data Source Columns
+    - Query Data Source Arguments
+        - it specifies the names, data types, and values of the arguments that are to be passed to the procedure for querying data
+        - it is valid only when the *Query Data Source Type* property is set to ```Procedure```
