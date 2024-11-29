@@ -1,8 +1,8 @@
 # Master-Detail Forms Module
 
-A form module can contain one or more data blocks. 
+A Forms module can contain one or more data blocks. Each data block can stand alone or be related to another data block. 
 
-Each data block can stand alone or be related to another data block. For example:
+For example:
 - a master block with one detail block
 - a master block with one detail block that is the master for another detail block
 - a master block with two detail blocks
