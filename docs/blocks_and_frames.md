@@ -120,3 +120,9 @@ It is possible to copy the property settings of an object to objects of differen
 When you display a list of properties (from either one object or a combination of objects) in the Property Palette, the list of property names and associated values can be saved for future application to other objects. This is known as a **Property Class**, which is a Forms Builder object in its own right.
 
 Objects can inherit some of their properties from a linked property class, so their properties change automatically if the associated properties are changed in the property class.
+
+## Control Block
+
+A **Control Block** is a block that is not associated with any database, and its items do not relate to any columns within any database table. This means that Forms does not perform an automatic query when the operator issues an Enter Query or Execute Query command, nor does it issue an automatic Insert, Update, or Delete for the block when the operator saves changes to the database.
+
+Because there are no database columns on which to base control block items, a control block has no items until you manually add them later.
