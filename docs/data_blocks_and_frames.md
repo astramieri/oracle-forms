@@ -23,9 +23,10 @@ Visual Attribute is another object that you can create in the Object Navigator. 
 ## Data Block Properties
 
 Each data block has several properties. These properties are divided into groups.
+
 - **Navigation**
     - Navigation Style
-        - valid settings: Same Record (default), Change Record, or Change Data Block
+        - valid settings: *Same Record* (default), *Change Record*, or *Change Data Block*
     - Previous/Next Navigation Data Block
 - **Records**
     - Current Record Visual Attribute Group
@@ -44,27 +45,28 @@ fetch from the database at one time
         - it determines the orientation of records in the data block (horizontal or vertical)
     - Single Record 
         - it specifies that the control block should always contain one record
-        - set to ```Yes``` for a control block that contains a summary calculated item
-        - cannot set to ```Yes``` for a data block
+        - set to *Yes* for a control block that contains a summary calculated item
+        - cannot set to *Yes* for a data block
 - **Database**
     - Database Data Block
-        - set to ```Yes``` if the data block is based on a database object, and ```No``` if it is a control block
+        - set to *Yes* if the data block is based on a database object
+        - set to *No* if it is a control block
     - Enforce Primary Key
     - Query Allowed
     - Insert Allowed
     - Update Allowed
     - Delete Allowed
     - Query Data Source Type
-        - possbile values: None, Table, Procedure, Transactional Triggers, or the ```FROM``` clause query
+        - possbile values: *None*, *Table*, *Procedure*, *Transactional Triggers*, or the *FROM clause* query
     - Query Data Source Name
     - Query Data Source Columns
     - Query Data Source Arguments
         - it specifies the names, data types, and values of the arguments that are to be passed to the procedure for querying data
-        - it is valid only when the *Query Data Source Type* property is set to ```Procedure```
+        - it is valid only when the *Query Data Source Type* property is set to *Procedure*
     - Optimizer Hint
     - Locking Mode/KeyMode
     - Update Changed Columns Only
-        - set to ```No``` (by default) so that all columns are included in the default UPDATE statement
+        - set to *No* (by default) so that all columns are included in the default UPDATE statement
     - Enforce Column Security
     - Maximum Query Time
         - it provides the option to abort a query when the elapsed time
@@ -82,3 +84,39 @@ of records fetched exceeds the value of this property
     - Scroll Bar Orientation
     - Scroll Bar X/Y Position
     - Scroll Bar Width/Length
+
+## Frame Properties
+
+The selections that you make in the Layout Wizard when creating a data block are recorded as properties of the resulting layout frame object. You can change frame properties to modify the arrangements of items within a data block.
+
+- **Layout Data Block**
+    - it specifies the name of the data block with which the frame is
+associated
+    - the items within this data block are arranged within the frame
+    - a data block can be associated with only one frame
+- **Update Layout**
+    - it specifies when the frame layout is updated
+    - valid settings: *Automatically*, *Manually*, or *Locked*
+- **Layout Style**
+    - it specifies the layout style for the items withing the frame
+    - valid settings: *Form* or *Tabular*
+- **Distance Between Records**
+    - it specifies the pysical distance with which to separate records
+- **X/Y Position**
+    - it specifies the x and y coordinates of the frame’s position on the canvas
+- **Width/Height**
+    - it specifies the width and height of the frame
+
+**Note**. You can arrange a frame as well as the objects within it manually in the Layout Editor.
+
+### Copying Properties
+
+You can copy the properties and values from the Property Palette to a buffer, so that they can be applied (pasted) to other objects in your design session.
+
+It is possible to copy the property settings of an object to objects of different types. In this case, properties that do not apply to the target object are ignored.
+
+### Property Classes
+
+When you display a list of properties (from either one object or a combination of objects) in the Property Palette, the list of property names and associated values can be saved for future application to other objects. This is known as a **Property Class**, which is a Forms Builder object in its own right.
+
+Objects can inherit some of their properties from a linked property class, so their properties change automatically if the associated properties are changed in the property class.
