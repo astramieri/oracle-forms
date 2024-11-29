@@ -14,7 +14,7 @@ Developer productivity is further increased through a single integrated developm
 Forms Builder has 2 main modes of operation: 
 - **Enter-Query mode**
     - to enter search criteria for a database query
-    - keystrokes are interpreted as *search criteria* for retrieving restricted data
+    - keystrokes are interpreted as search criteria for retrieving restricted data
 - **Normal mode**
     - to insert and alter records in the database
     - keystrokes are interpreted as either the entering of new records or the altering of existing ones
@@ -24,7 +24,7 @@ Forms Builder has 2 main modes of operation:
 ## Retrieving Data 
 
 There are two general types of queries:
-- **unrestricted**: the equivalent of selecting all the rows for all the represented columns from the base table for the queried data block
+- **un-restricted**: the equivalent of selecting all the rows for all the represented columns from the base table for the queried data block
 - **restricted**: the equivalent of selecting a restricted set of rows for all the represented columns from the base table for the queried data block
 
 You can use any one of the following methods to perform a restricted query:
