@@ -28,6 +28,7 @@ Note-taking repository for Oracle Forms.
 - [Master-Detail Forms Module](./docs/master_detail.md)
 - [Data Blocks and Frames](./docs/blocks_and_frames.md)
 - [Text Items](./docs/text_items.md)
+- [Windows and Canvases](./docs/windows_and_canvases.md)
 
 ## Links
 
