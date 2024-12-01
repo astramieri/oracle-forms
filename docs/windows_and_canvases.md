@@ -40,3 +40,13 @@ You can create two types of windows:
 - **modal window** 
     - it is a restricted window that the user must respond to before moving the input focus to another window
     - it must be dismissed before control can be returned to a modeless window
+
+## Canvas Types
+
+In addition to the content canvas, Forms Builder provides three other types of canvases:
+- **stacked canvas**
+- **toolbar canvas**
+- **tab canvas**
+
+![Canvas Types](../images/canvas_types.png)
+
