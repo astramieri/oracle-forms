@@ -74,10 +74,6 @@ Typical Usage of a Stacked Canvas:
 A toolbar canvas is a special type of canvas that you can create to hold buttons and other
 frequently used GUI elements.
 
-Toolbar Types
-- Vertical toolbar
-- Horizontal toolbar
-
 Toolbar canvases offer the following advantages:
 - Provide a standard look and feel across canvases displayed in the same window
 - Decrease form module maintenance time
@@ -87,3 +83,14 @@ Toolbar canvases offer the following advantages:
 
 You can attach the toolbar to individual windows, or to the form itself. Attaching a toolbar to a form provides an MDI toolbar, so that you do not need to create more than one toolbar for a Forms application that uses multiple windows. If you display a toolbar in the MDI window, the same toolbar will not be duplicated in the individual windows of the form. Whether an MDI toolbar is displayed is determined by a combination of Form properties and
 the ```useSDI``` run-time parameter, which you set as part of ```otherparams```.
+
+### Tab Canvas
+
+A tab canvas is a special type of canvas that enables you to organize and display related information on separate tabs. Like stacked canvases, **tab canvases are displayed on top of a content canvas**.
+
+A tab page is a subobject of a tab canvas. Each tab canvas is made up of one or more tab pages. A tab page displays a subset of the information in the entire tab canvas. Each tab page has a labeled tab that end users can click to access information on the page. Each tab page occupies an equal amount of space on the tab canvas.
+
+You can use tab canvases to:
+- Create an overlay effect within a single window
+- Display large amounts of information on a single canvas
+- Hide information and easily access it by clicking the tab
