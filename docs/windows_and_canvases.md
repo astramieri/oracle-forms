@@ -94,3 +94,5 @@ You can use tab canvases to:
 - Create an overlay effect within a single window
 - Display large amounts of information on a single canvas
 - Hide information and easily access it by clicking the tab
+
+**Performance Tip.** The time taken to load and initialize a tab canvas at run time is related to all objects on the canvas and not just to those initially visible. To improve this loading and initialization time, you can use a tab canvas to get the tabbed effect and place stacked canvases on the tab pages, adding the items and other components on the stacked canvases. By doing this, the components are not rendered until they are needed
