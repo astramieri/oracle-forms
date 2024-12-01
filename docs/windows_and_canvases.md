@@ -50,3 +50,21 @@ In addition to the content canvas, Forms Builder provides three other types of c
 
 ![Canvas Types](../images/canvas_types.png)
 
+### Stacked Canvas
+
+A stacked canvas is displayed on top of, or stacked on, the content canvas that is assigned to a window. It shares a window with a content canvas and any number of other stacked canvases. Stacked canvases are usually smaller than the window in which they display.
+
+If a data block contains more items than the window can display, Forms scrolls the window
+to display items that were initially not visible. This can cause important items, such as
+primary key values, to scroll out of view. By placing important items on a content canvas,
+and then placing the items that can be scrolled out of sight on a stacked canvas, the stacked canvas becomes the scrolling region, rather than the window itself.
+
+Typical Usage of a Stacked Canvas
+- Scrolling views
+- Creating an overlay effect within a single window
+- Displaying headers with constant information
+- Creating a cascading or a revealing effect within a single window
+- Displaying additional information
+- Displaying information conditionally
+- Displaying context-sensitive help
+- Hiding information
