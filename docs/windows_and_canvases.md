@@ -59,7 +59,7 @@ to display items that were initially not visible. This can cause important items
 primary key values, to scroll out of view. By placing important items on a content canvas,
 and then placing the items that can be scrolled out of sight on a stacked canvas, the stacked canvas becomes the scrolling region, rather than the window itself.
 
-Typical Usage of a Stacked Canvas
+Typical Usage of a Stacked Canvas:
 - Scrolling views
 - Creating an overlay effect within a single window
 - Displaying headers with constant information
@@ -68,3 +68,22 @@ Typical Usage of a Stacked Canvas
 - Displaying information conditionally
 - Displaying context-sensitive help
 - Hiding information
+
+### Toolbar Canvas
+
+A toolbar canvas is a special type of canvas that you can create to hold buttons and other
+frequently used GUI elements.
+
+Toolbar Types
+- Vertical toolbar
+- Horizontal toolbar
+
+Toolbar canvases offer the following advantages:
+- Provide a standard look and feel across canvases displayed in the same window
+- Decrease form module maintenance time
+- Increase application usability
+- Create applications similar to others used in the same environment
+- Provide an alternative to menu or function key–driven applications
+
+You can attach the toolbar to individual windows, or to the form itself. Attaching a toolbar to a form provides an MDI toolbar, so that you do not need to create more than one toolbar for a Forms application that uses multiple windows. If you display a toolbar in the MDI window, the same toolbar will not be duplicated in the individual windows of the form. Whether an MDI toolbar is displayed is determined by a combination of Form properties and
+the ```useSDI``` run-time parameter, which you set as part of ```otherparams```.
