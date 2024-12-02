@@ -29,6 +29,7 @@ Note-taking repository for Oracle Forms.
 - [Data Blocks and Frames](./docs/blocks_and_frames.md)
 - [Windows and Canvases](./docs/windows_and_canvases.md)
 - [Text Items](./docs/text_items.md)
+- [LOVs and Editors](./docs/lovs_and_editors.md)
 
 ## Links
 
