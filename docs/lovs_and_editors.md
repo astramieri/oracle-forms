@@ -35,3 +35,10 @@ A record group is a column-and-row structure stored within Forms Runtime memory 
 Record groups can be designed to contain static values. Alternatively, they can be populated programmatically at run time or, most commonly, populated by a SQL query.
 
 **Note**. Because LOVs and record groups are separate objects, you can create multiple LOVs based on the same record group.
+
+## Editors
+
+With a text editor the user can view multiple lines of a text item simultaneously, search and replace text in it, and generally modify the value of an item from this separate window.
+
+Every text item has the default editor available, but you can design your own replacement editor for those items that have special requirements such as larger editing window, position, color, and title. By overriding the default editor for a text item, you can provide a larger editing window for
+items with potentially large textual values.
