@@ -74,6 +74,8 @@ There are 3 possible levels:
 
 Some triggers cannot be defined below a certain level.
 
+*A mistake often made by inexperienced Forms developers is to define a trigger at the wrong scope. For example, if you want a message to display when the cursor is placed on an item, you should code a When-New-Item-Instance trigger at the item level for that item. If you mistakenly put the trigger at the block or form level, the trigger will fire whenever the operator navigates to any item in the block or form.*
+
 ## Trigger Execution Hierarchy
 
 When there is more than one trigger of the same type, Forms by default fires the trigger most specific to the cursor location. However, you can alter the firing sequence of a trigger by setting the Execution Hierarchy trigger property.
