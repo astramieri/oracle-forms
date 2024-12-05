@@ -93,3 +93,11 @@ Settings for Execution Hierarchy are the following:
 In the cases of Before and After, you can fire more than one trigger of the same type due to a single event. However, you must define each trigger at a different level.
 
 ![Execution Hierarchy](../images/execution_hierarchy.png)
+
+## PL/SQL Editor
+
+Things to remember about the PL/SQL Editor
+- New or changed text in triggers remains uncompiled until you click Compile
+- Compiling triggers that contain SQL requires connection to the database
+- All uncompiled triggers are compiled when the form module is compiled
+- The Block and Item pop-up lists do not change the current trigger scope but they enable you to switch to another trigger
