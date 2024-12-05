@@ -63,6 +63,8 @@ Although you can include SQL statements in a trigger, keep in mind the following
 - ```INSERT```, ```UPDATE```, and ```DELETE``` statements can be placed in transactional triggers
 - ```COMMIT```, ```ROLLBACK```, and ```SAVEPOINT``` should not be included directly as SQL trigger statements
 
+**Note.** If your trigger code does not require defined variables, you do not need to include the ```BEGIN``` and ```END``` keywords; they are added implicitly.
+
 ### Trigger Scope
 
 The scope of a trigger is determined by its position in the formobject hierarchy—that is, the type of object under which you create the trigger. 
@@ -92,8 +94,6 @@ Settings for Execution Hierarchy are the following:
 
 In the cases of Before and After, you can fire more than one trigger of the same type due to a single event. However, you must define each trigger at a different level.
 
-![Execution Hierarchy](../images/execution_hierarchy.png)
-
 ## PL/SQL Editor
 
 Things to remember about the PL/SQL Editor
@@ -101,3 +101,13 @@ Things to remember about the PL/SQL Editor
 - Compiling triggers that contain SQL requires connection to the database
 - All uncompiled triggers are compiled when the form module is compiled
 - The Block and Item pop-up lists do not change the current trigger scope but they enable you to switch to another trigger
+
+## Forms Builder Variables
+
+Forms Builder generally accepts two types of variables for storing values:
+- PL/SQL variables
+    - These must be declared in a ```DECLARE``` section, and remain available until the end of the declaring block
+    - They are not prefixed by a colon
+- Forms Builder variables
+    - These are the variable types maintained by the Forms Builder
+    - These are seen by PL/SQL as external variables, and **require a colon (:) prefix** to distinguish them from PL/SQL objects (except when the name is passed as a character string to a subprogram)
