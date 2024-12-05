@@ -89,3 +89,5 @@ Settings for Execution Hierarchy are the following:
     - The trigger fires before firing the same trigger, if any, at the next highest level
 
 In the cases of Before and After, you can fire more than one trigger of the same type due to a single event. However, you must define each trigger at a different level.
+
+![Execution Hierarchy](../images/execution_hierarchy.png)
