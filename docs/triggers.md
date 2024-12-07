@@ -67,7 +67,7 @@ Although you can include SQL statements in a trigger, keep in mind the following
 
 ### Trigger Scope
 
-The scope of a trigger is determined by its position in the formobject hierarchy—that is, the type of object under which you create the trigger. 
+The scope of a trigger is determined by its position in the form object hierarchy. 
 
 There are 3 possible levels:
 - Form level
@@ -92,22 +92,23 @@ Settings for Execution Hierarchy are the following:
 - Before
     - The trigger fires before firing the same trigger, if any, at the next highest level
 
-In the cases of Before and After, you can fire more than one trigger of the same type due to a single event. However, you must define each trigger at a different level.
+In the cases of *Before* and *After*, you can fire more than one trigger of the same type due to a single event. However, you must define each trigger at a different level.
 
 ## PL/SQL Editor
 
-Things to remember about the PL/SQL Editor
-- New or changed text in triggers remains uncompiled until you click Compile
+Things to remember about the PL/SQL Editor:
+
+- New or changed text in triggers remains uncompiled until you click *Compile*
 - Compiling triggers that contain SQL requires connection to the database
 - All uncompiled triggers are compiled when the form module is compiled
-- The Block and Item pop-up lists do not change the current trigger scope but they enable you to switch to another trigger
+- The *Block* and *Item* pop-up lists do not change the current trigger scope but they enable you to switch to another trigger
 
 ## Forms Builder Variables
 
 Forms Builder generally accepts two types of variables for storing values:
 - PL/SQL variables
     - These must be declared in a ```DECLARE``` section, and remain available until the end of the declaring block
-    - They are not prefixed by a colon
+    - They are not prefixed by a colon (:)
 - Forms Builder variables
     - These are the variable types maintained by the Forms Builder
     - These are seen by PL/SQL as external variables, and **require a colon (:) prefix** to distinguish them from PL/SQL objects (except when the name is passed as a character string to a subprogram)
