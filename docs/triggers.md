@@ -129,3 +129,31 @@ You can use the ```DEFAULT_VALUE``` built-in to assign a value to a global varia
     DEFAULT_VALUE('ITALY','GLOBAL.country');
 
 You can use the ```ERASE``` built-in to remove a global variable.
+
+## Built-in Subprograms
+
+Forms Builder provides a set of predefined subprograms as part of the product. These
+subprograms are defined within built-in packages as either a procedure or function.
+
+Forms Builder built-in subprograms belong to one of the following:
+- **Standard Extensions** package
+    - Contains hundreds of core Forms built-ins that are integrated into the Standard PL/SQL command set in Forms Builder
+    - You can call them directly, without any package prefix
+    - E.g.: ```EXECUTE_QUERY```
+- **Other Forms Builder** packages
+    - Subprograms in other built-in packages provide functionality related to a particular supported feature
+    - These require the package name as a prefix when called
+    - E.g.: ```ORA_JAVA.CLEAR_EXCEPTION```
+
+### Limits of Use
+
+You can call built-ins in any trigger or user-named subprogram in which you use PL/SQL. However, some built-ins provide functionality that is not allowed in certain trigger types. 
+
+Built-ins are, therefore, divided into 2 groups:
+- **Unrestricted built-ins**
+    - They do not affect logical or physical navigation and can be called from any trigger, or from any subprogram
+- **Restricted built-ins**
+    - They affect navigation in your form, either external screen navigation, or internal navigation 
+    - You can call these built-ins only from triggers while no internal navigation occurs
+
+**Note.** Calling a restricted built-in from a navigational trigger compiles successfully but causes a run-time error.
