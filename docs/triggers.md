@@ -18,10 +18,10 @@ Events cause the activation or firing of certain trigger types.
 
 Triggers may be grouped into functional categories:
 
-- **Block processing**
-- **Interface event**
-- **Master detail**
-- **Message handling**
+- **Block Processing**
+- **Interface Event**
+- **Master Detail**
+- **Message Handling**
 - **Navigational**
 - **Query Time**
 - **Transactional**
