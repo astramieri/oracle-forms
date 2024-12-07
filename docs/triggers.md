@@ -44,7 +44,7 @@ There are 3 main components to consider when you design a trigger in Forms Build
 
 ### Trigger Type
 
-The trigger type determines which type of event fires it. There are more than **100 built-in triggers**, each identified by a specific name. The name of a trigger identifies its type. All built-in trigger types are associated with an event,
+The trigger type determines which type of event fires it. There are **more than 100 built-in triggers**, each identified by a specific name. The name of a trigger identifies its type. All built-in trigger types are associated with an event,
 and their names always contain a hyphen (-).
 
 Forms Builder supports **user-named triggers** as well as the standard built-in triggers. A usernamed trigger is one that is named by the designer. These triggers fire only if called by another trigger or program unit using built-in code features.
