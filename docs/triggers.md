@@ -112,3 +112,20 @@ Forms Builder generally accepts two types of variables for storing values:
 - Forms Builder variables
     - These are the variable types maintained by the Forms Builder
     - These are seen by PL/SQL as external variables, and **require a colon (:) prefix** to distinguish them from PL/SQL objects (except when the name is passed as a character string to a subprogram)
+
+### Forms Builder Variables
+
+| Variable Type | Scope | Use |
+| - | - | - |
+| Item (text, list, check box, etc.) | Presentation and user interaction | ```:block_name.item_name``` |  
+| Global variable | Sessionwide character variable | ```:GLOBAL.variable_name``` |
+| System variable | Form status and control | ```:SYSTEM.variable_name``` | 
+| Parameter | Passing values in and out of module | ```:PARAMETER.name``` |
+
+**Note**. The contents of system variables are in uppercase.
+
+You can use the ```DEFAULT_VALUE``` built-in to assign a value to a global variable. Forms Builder creates the global variable if it does not exist. If the value of the indicated variable is not null, ```DEFAULT_VALUE``` does nothing.
+
+    DEFAULT_VALUE('ITALY','GLOBAL.country');
+
+You can use the ```ERASE``` built-in to remove a global variable.
