@@ -157,3 +157,10 @@ Built-ins are, therefore, divided into 2 groups:
     - You can call these built-ins only from triggers while no internal navigation occurs
 
 **Note.** Calling a restricted built-in from a navigational trigger compiles successfully but causes a run-time error.
+
+## Debugging Triggers
+
+With Forms Builder, you can monitor and debug triggers in several ways:
+- Compiling
+- Running a form with run-time parameter ```debug_message=YES```
+- Invoking the PL/SQL Debugger
