@@ -164,3 +164,9 @@ With Forms Builder, you can monitor and debug triggers in several ways:
 - Compiling
 - Running a form with run-time parameter ```debug_message=YES```
 - Invoking the PL/SQL Debugger
+
+### Remote Debugging 
+
+You can also debug an application that runs remotely within the intranet. The application that is being debugged makes a call to the ```DEBUG.ATTACH``` built-in procedure. This displays a dialog box containing host and port information, which the developer can then use from Forms Builder to attach to the problem session in order to debug it. 
+
+**Note.** A direct socket connection is needed, so remote debugging is usually not possible over the Internet unless the firewall allows a direct socket connection.
