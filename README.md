@@ -36,4 +36,3 @@ Note-taking repository for Oracle Forms.
 ## Links
 
 - [Working with Oracle Forms](https://docs.oracle.com/en/middleware/developer-tools/forms/12.2.1.4/working-forms/index.html)
-- [Summit Demo App Modernized with APEX](https://apex.oracle.com/go/forms2apex-app)
